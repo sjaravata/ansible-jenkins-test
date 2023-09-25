@@ -1,0 +1,12 @@
+[pp9:children]
+pp9_basic
+pp9_enterprise
+pp9_integrator
+
+
+[pp9_basic]
+
+[pp9_integrator]
+pp-sysops-test base_url="https://sysops-test.poolparty.biz"
+
+[pp9_integrator]

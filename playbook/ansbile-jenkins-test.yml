@@ -1,0 +1,9 @@
+---
+- name: Ansible Test
+  hosts: "{{ host_group }}"
+  become: true
+
+  tasks:
+    - name: Hostname
+      debug: var={{inventory_hostname}}
+      
